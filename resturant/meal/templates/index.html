@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex flex-wrap justify-content-center mt-5 mb-4 gap-4">
+{% for i in data%}
+<div class="card" style="width: 18rem;">
+    <img src="{{i.strCategoryThumb}}" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{i.idCategory}}</h5>
+      <h5 class="card-title">{{i.strCategory}}</h5>
+      <p class="card-text">{{ i.strCategoryDescription | truncatewords:10 }}</p>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}

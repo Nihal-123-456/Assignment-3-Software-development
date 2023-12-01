@@ -1,0 +1,51 @@
+.navig{
+    background-color: #7f743b;
+    margin-top: -8px;
+    padding: 10px;
+    margin-bottom: -8px;
+}
+.text{
+    color: white;
+    font-weight: bold;
+}
+.name{
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.search{
+    color: white;
+}
+.home-img{
+    text-align: center;
+}
+.img-sec{
+    width: 100%;
+    filter: brightness(40%);
+}
+.text-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #a3902f;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: bold;
+}
+.about-us{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.abt-title{
+    color: #c5ae39;
+    font-size: 40px;
+}
+.text-abt{
+    color: #c5ae39;
+    font-size: 20px;
+}
